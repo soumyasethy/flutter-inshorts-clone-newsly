@@ -33,6 +33,7 @@ Utils.launchURL(urlString);  //website url
 ```
 
 ###### Convertig date to time agon 
+1 month ago
 ```
 Utils.timeAgoSinceDate(publishedAt)  //2020-05-16T00:25:25Z
 ```
