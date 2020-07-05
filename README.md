@@ -1,16 +1,21 @@
-# newsly
+![alt text](https://github.com/soumyasethy/flutter-inshorts-clone-newsly/blob/master/iOS_newsly.gif)
+![alt text](https://github.com/soumyasethy/flutter-inshorts-clone-newsly/blob/master/android_newsly.gif)
 
-A news app in  Flutter.
+# Built with Flutter
+Newly is clone of Inshorts news App UI. 
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+## Features
+- Swipup for next news story and swipe down for previous news story.
+- Tap at bottom action button to read full story on published website.
+- Tap on share icon to share the news in WhatsApp, Facebook or anywhere.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## Use Case
+This can be replaced with the real news api call.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Looking for news api?
+send email at sethy.soumyaranjan@gmail.com
+
+
+
