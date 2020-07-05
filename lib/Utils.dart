@@ -6,14 +6,14 @@ class Utils {
     try {
       await launch(
         url,
-        option: new CustomTabsOption(
+        option:  CustomTabsOption(
           toolbarColor: Theme.of(context).primaryColor,
           enableDefaultShare: true,
           enableUrlBarHiding: true,
           showPageTitle: true,
-//          animation: new CustomTabsAnimation.slideIn(),
+//          animation:  CustomTabsAnimation.slideIn(),
           // or user defined animation.
-          animation: new CustomTabsAnimation(
+          animation:  CustomTabsAnimation(
             startEnter: 'slide_up',
             startExit: 'android:anim/fade_out',
             endEnter: 'android:anim/fade_in',
