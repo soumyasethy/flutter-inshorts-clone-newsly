@@ -7,7 +7,7 @@ Newly is clone mobile app of Inshorts news App UI.
 ## Features
 - Swip up for next news story
 - Swipe down for previous news story.
-- Tap at bottom action button to read full story on published website.
+- Tap on bottom action button to read full story on published website.
 - Tap on share icon to share the news in WhatsApp, Facebook or anywhere.
 
 
