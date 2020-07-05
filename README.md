@@ -4,11 +4,28 @@
 # Built with Flutter
 Newly is clone mobile app of Inshorts news App UI. 
 
-
 ## Features
-- Swipup for next news story and swipe down for previous news story.
+- Swip up for next news story
+- Swipe down for previous news story.
 - Tap at bottom action button to read full story on published website.
 - Tap on share icon to share the news in WhatsApp, Facebook or anywhere.
+
+
+###### Gesture Swipe Up and Down handle by **Dismissible** widget
+> code snippet
+```
+Dismissible(
+          background: newsCard(prevIndex),
+          child: newsCard(index),
+          secondaryBackground: newsCard(nextIndex),
+          resizeDuration: Duration(milliseconds: 10),
+          key: Key(index.toString()),
+          direction: DismissDirection.vertical,
+          onDismissed: (direction) {
+            updateContent(direction);
+          },
+        )
+```
 
 
 ## Use Case
