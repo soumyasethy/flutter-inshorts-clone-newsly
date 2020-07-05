@@ -39,9 +39,13 @@ class _MyHomePageState extends State<MyHomePage> {
 
   @override
   void initState() {
-    newsModal = NewsModal.fromJson(newsDummy);
+    fetchData();
     setupLastIndex();
     super.initState();
+  }
+
+  fetchData() {
+    newsModal = NewsModal.fromJson(newsDummy);
   }
 
   void updateIndex(newIndex) {
@@ -101,7 +105,7 @@ class _MyHomePageState extends State<MyHomePage> {
               Icons.refresh,
               color: Colors.white,
             ),
-//            onPressed: _refresh,
+            onPressed: fetchData,
           ),
           IconButton(
             icon: Icon(
