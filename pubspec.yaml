@@ -21,6 +21,9 @@ environment:
   sdk: ">=2.7.0 <3.0.0"
 
 dependencies:
+  share: ^0.6.4+2
+  shared_preferences: ^0.5.7+2
+  flutter_custom_tabs: ^0.6.0
   flutter:
     sdk: flutter
 
