@@ -12,7 +12,7 @@ Newly is clone mobile app of Inshorts news App UI.
 
 
 ###### Gesture Swipe Up and Down handle by **Dismissible** widget
-> code snippet
+
 ```
 Dismissible(
           background: newsCard(prevIndex),
