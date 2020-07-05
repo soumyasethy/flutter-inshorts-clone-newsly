@@ -2,18 +2,18 @@ import 'package:flutter/material.dart';
 import 'package:flutter_custom_tabs/flutter_custom_tabs.dart';
 
 class Utils {
-  static launchURL(BuildContext context, String url) async {
+  static launchURL(String url) async {
     try {
       await launch(
         url,
-        option:  CustomTabsOption(
-          toolbarColor: Theme.of(context).primaryColor,
+        option: CustomTabsOption(
+          toolbarColor: Colors.blue,
           enableDefaultShare: true,
           enableUrlBarHiding: true,
           showPageTitle: true,
 //          animation:  CustomTabsAnimation.slideIn(),
           // or user defined animation.
-          animation:  CustomTabsAnimation(
+          animation: CustomTabsAnimation(
             startEnter: 'slide_up',
             startExit: 'android:anim/fade_out',
             endEnter: 'android:anim/fade_in',

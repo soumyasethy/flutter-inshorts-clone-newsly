@@ -65,14 +65,14 @@ class NewsCard extends StatelessWidget {
         child: RaisedButton(
           color: Theme.of(context).primaryColor,
           onPressed: () {
-            Utils.launchURL(context, url);
+            Utils.launchURL(url);
           },
           child: Container(
             width: double.infinity,
             height: 50,
             child: Center(
                 child: Text(
-              "Tap to read full story at ${sourceName}",
+              "Tap to read full story at $sourceName",
               style: TextStyle(color: Colors.white),
             )),
           ),
