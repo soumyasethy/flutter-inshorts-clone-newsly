@@ -29,7 +29,7 @@ Dismissible(
 
 ###### Opening any URL in custom chrome tab(Android) or Safari View modal(iOS)
 ```
-Utils.launchURL(urlString);  //https://www.***********
+Utils.launchURL(urlString);  //website url
 ```
 
 ###### Convertig date to time agon 
