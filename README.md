@@ -2,7 +2,7 @@
 ![alt text](https://github.com/soumyasethy/flutter-inshorts-clone-newsly/blob/master/android_newsly.gif)
 
 # Built with Flutter
-Newly is clone of Inshorts news App UI. 
+Newly is clone mobile app of Inshorts news App UI. 
 
 
 ## Features
