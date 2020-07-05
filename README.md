@@ -32,10 +32,15 @@ Dismissible(
 Utils.launchURL(urlString);  //website url
 ```
 
-###### Convertig date to time agon 
+###### Convertig date to time ago
 1 month ago
 ```
 Utils.timeAgoSinceDate(publishedAt)  //2020-05-16T00:25:25Z
+```
+
+###### Sharing string
+```
+Share.share(getShareText());
 ```
 
 
