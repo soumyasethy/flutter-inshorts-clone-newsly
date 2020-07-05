@@ -27,6 +27,17 @@ Dismissible(
         )
 ```
 
+###### Opening any URL in custom chrome tab(Android) or Safari View modal(iOS)
+```
+Utils.launchURL(urlString);  //https://www.***********
+```
+
+###### Convertig date to time agon 
+```
+Utils.timeAgoSinceDate(publishedAt)  //2020-05-16T00:25:25Z
+```
+
+
 
 ## Use Case
 This can be replaced with the real news api call.
